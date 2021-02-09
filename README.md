@@ -32,7 +32,7 @@ I appreciate your interest in this Project <br/>
 
 ESPAÑOL
 
-# Fifth-JS-Ejercicio
+# Fifth-JS-Exercise
 
 Un ejercicio con JavaScript donde practico formularios y validaciones
 
