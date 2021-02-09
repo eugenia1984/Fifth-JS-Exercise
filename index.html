@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 7</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	
+        <h1>Evaluación Unidad VII</h1>
+        <section id="formulario">
+            <form id="form">
+                <fielset>
+                    <legend><h2>Formulario de registración</h2></legend> 
+                    <label for="mail">E-Mail</label>
+                    <input type="mail" id="mail" placeholder="Ingresá tu e-mail" minlength="11" required>
+                    <label for="password">Contraseña: </label>
+                    <input type="password" id="contraseña" placeholder="Ingresá tu contraseña" minlength="8" pattern="[A-Za-z0-9]{8,20}" title="La contraseña debe tener un mínimo de 8 caracteres, que pueden ser números o letras ( tanto en minúscula como en mayúscula" required>
+                    <p class="warning">La contraseña debe contar con un minimo de 8 caracteres alfanuméricos</p>
+                    <input type="password" id="contraseña2" placeholder="ingresela nuevamente" required>
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" id="tel" placeholder="Ingresá tu telefono" required>
+                    <input type="submit" class="btn">
+                </fielset>
+            </form>
+        </section>
+<script src="./js/script.js"></script>
+</body>
+</html>
